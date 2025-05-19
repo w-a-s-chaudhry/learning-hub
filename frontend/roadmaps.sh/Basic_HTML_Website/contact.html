@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Projects of [Your Name], Frontend Developer"
+    />
+    <meta
+      name="keywords"
+      content="HTML, CSS, JavaScript, Frontend, Developer, Portfolio, Resume, Projects, Articles, Contact"
+    />
+    <meta name="author" content="Wajid Ali Saleem Chaudhry" />
+
+    <title>[Your Name]</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <header>
+      <table width="100%" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <td align="left">[Your Name]</td>
+          <td align="right">
+            <a href="index.html">Home</a> /
+            <a href="projects.html">Projects</a> /
+            <a href="articles.html">Articles</a> /
+            <a href="#">Contact</a>
+          </td>
+        </tr>
+      </table>
+      <h1 align="center">Contact Us</h1>
+    </header>
+    <main>
+      <hr />
+      <article id="contact">
+        <form action="https://httpbin.org/get" method="get">
+          <fieldset>
+            <legend>Send Us A Message</legend>
+            <p>
+              <label for="name">Name:</label>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Your Name"
+                required
+              />
+            </p>
+            <p>
+              <label for="email">Email:</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Your Email"
+                required
+              />
+            </p>
+            <p>
+              <label for="message">Your Message:</label>
+              <br />
+              <textarea
+                name="message"
+                id="message"
+                placeholder="Type your message here"
+                cols="30"
+                rows="10"
+                required
+              ></textarea>
+            </p>
+          </fieldset>
+          <button
+            type="submit"
+            formaction="https://httpbin.org/post"
+            formmethod="post"
+          >
+            Send
+          </button>
+          <button type="reset">Reset</button>
+        </form>
+      </article>
+    </main>
+    <footer id="footer">
+      <h3 align="center" valign="bottom">&copy; all rights reserved 2025</h3>
+    </footer>
+  </body>
+</html>
